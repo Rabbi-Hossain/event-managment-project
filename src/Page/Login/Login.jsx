@@ -9,7 +9,10 @@ const Login = () => {
     const location = useLocation()
     const navigate = useNavigate()
 
-    const { SignIn} =useContext(UserContext)
+
+
+    const {  SignIn} =useContext(UserContext)
+
     
     
     const handleLogin = e=>{
@@ -59,6 +62,8 @@ const Login = () => {
                             </div>
 
                             <p>Have an account ? <Link to={'/register'} className="text-blue-800">Register</Link></p>
+
+                          
                         </form>
                     </div>
                 </div>

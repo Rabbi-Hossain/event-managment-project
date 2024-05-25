@@ -4,13 +4,13 @@ import { UserContext } from "../../AuthContext/AuthContext";
 
 const Header = () => {
 
-    const {user, logOut} = useContext(UserContext)
+    const { user, logOut } = useContext(UserContext)
 
 
-    const HandleLogOut =()=>{
+    const HandleLogOut = () => {
         logOut()
-        .then()
-        .catch()
+            .then()
+            .catch()
     }
 
     const navLinks = <>
@@ -25,8 +25,8 @@ const Header = () => {
         <li><NavLink to='/register' className={({ isActive, isPending }) =>
             isPending ? "pending" : isActive ? "active" : ""
         }>Register</NavLink></li>
-       
-     
+
+
 
     </>
 
@@ -51,14 +51,32 @@ const Header = () => {
                 </div>
 
                 <div className="navbar-end">
-                {
-                    user ? <button onClick={HandleLogOut} className="btn btn-warning">Log Out</button>
-                    :
-                    <Link className="btn btn-warning" to="/login">Log In</Link>
-                }
-                
+                    {
+                        user ? <div>
+                            
+                            <div className="dropdown dropdown-end">
+                                <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
+                                    <div className="w-10 rounded-full">
+                                        <img alt="Tailwind CSS Navbar component" src={user.photoURL} />
+                                    </div>
+                                </div>
+                                <ul tabIndex={0} className="mt-3 z-[1] p-2 shadow menu menu-sm dropdown-content bg-base-100 rounded-box w-52">
+                                    <li>
+                                        <a className="justify-between">
+                                         {user.displayName}  
+                                        </a>
+                                    </li>
+                                    <li><a>{user.email}</a></li>
+                                    <li onClick={HandleLogOut} ><a>Logout</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                            :
+                            <Link className="btn btn-warning" to="/login">Log In</Link>
+                    }
+
                 </div>
-                
+
             </div>
         </div>
     );
