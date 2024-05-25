@@ -1,0 +1,57 @@
+[
+    {
+      "id": 1,
+      "img": "https://i.postimg.cc/253hzQCq/trent-alexander-arnold-liverpool-fc-2019-TRHDP3.jpg",
+      "title": "Liverpool FC",
+      "details": "Argentinian forward, known for his exceptional dribbling, passing, and goal-scoring abilities. Formerly of FC Barcelona, now playing for Paris Saint-Germain."
+    },
+    {
+      "id": 2,
+      "img": "https://i.postimg.cc/KYdkxC9V/images.jpg",
+      "title": "FC Barcelona",
+      "details": "Portuguese forward, renowned for his athleticism, versatility, and prolific goal-scoring record. Recently returned to Manchester United."
+    },
+    {
+      "id": 3,
+      "img": "https://i.postimg.cc/FzvYJ3XV/bayern-celeb-cologne.webp",
+      "title": "Bayern Munich",
+      "details": "French forward, celebrated for his lightning speed, technical prowess, and clinical finishing. Key player for Paris Saint-Germain and the French national team."
+    },
+    {
+      "id": 4,
+      "img": "https://i.postimg.cc/prBpQr2b/AP21136628008452-e1626345561488.jpg",
+      "title": "Paris Saint-Germain",
+      "details": "Polish striker, known for his strength, aerial ability, and lethal finishing. Leading goal-scorer for Bayern Munich and the Polish national team."
+    },
+    {
+      "id": 5,
+      "img": "https://i.postimg.cc/Znqhg58h/Manchester-City-Football-Club-team-celebrates-with-Premier-League-trophy-championship-May-22-2022.webp",
+      "title": "Manchester City",
+      "details": "Egyptian winger, admired for his pace, dribbling, and goal-scoring exploits. Star player for Liverpool FC and the Egyptian national team."
+    },
+    {
+      "id": 6,
+      "img": "https://i.postimg.cc/xjsQmLQj/juventus-line-up.webp",
+      "title": "Juventus",
+      "details": "Belgian midfielder, recognized for his vision, passing range, and set-piece expertise. Instrumental for Manchester City and the Belgian national team."
+    },
+    {
+      "id": 7,
+      "img": "https://i.postimg.cc/pV1NrxQp/0-chelsea-west-ham-yellow-card.webp",
+      "title": "Chelsea FC",
+      "details": "Brazilian forward, known for his flair, creativity, and skillful dribbling. Leading figure for Paris Saint-Germain and the Brazilian national team."
+    },
+    {
+      "id": 8,
+      "img": "https://i.postimg.cc/gj1BDz4s/RTR3C218.jpg",
+      "title": "Atletico Madrid",
+      "details": "Dutch defender, renowned for his aerial dominance, leadership, and defensive solidity. Key figure for Liverpool FC and the Dutch national team."
+    },
+    {
+      "id": 9,
+      "img": "https://i.postimg.cc/QdNhKS9M/31soccer-acmilan-top-video-Sixteen-By-Nine3000.jpg",
+      "title": "AC Milan",
+      "details": "Norwegian striker, admired for his speed, strength, and clinical finishing. Emerging star for Borussia Dortmund and the Norwegian national team."
+    }
+  ]
+  
